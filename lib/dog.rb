@@ -4,9 +4,9 @@ class Dog
     @name = fido
   end
 
-  def name
-    @name
-  end
+  # def name
+  #   @name
+  # end
 
 fido = Dog.new
 fido.name = "Fido"
@@ -15,9 +15,9 @@ fido.name = "Fido"
     @breed = snoopy
   end
 
-  def breed
-    @breed
-  end
+  # def breed
+  #   @breed
+  # end
 end
 
 snoopy = Dog.new
